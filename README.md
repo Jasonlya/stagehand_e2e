@@ -1,4 +1,4 @@
-# MasterGo UI Automation Tests
+# UI Automation Tests
 
 使用 Playwright 实现的 MasterGo 网站 UI 自动化测试项目。
 
