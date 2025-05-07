@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "test": "ts-node tests/example.test.ts",
+    "test:mastergo": "playwright test tests/mastergo.test.ts",
+    "test:report": "playwright show-report"
+  },
+  "dependencies": {
+    "@browserbasehq/stagehand": "^2.2.1",
+    "playwright": "^1.52.0",
+    "zod": "^3.24.4"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^20.11.24",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
